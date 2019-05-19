@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <title>BJMYyV1aN</title>
+  <script src="MediaPlayer1_files/bundle.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="HYDRA">
+  <meta property="og:description" content="live coding networked visuals in the browser">
+  <meta property="og:image" content="https://cdn.glitch.com/9c3a06ab-0731-42ca-a1a3-3a249825d08f%2FScreen%20Shot%202018-06-24%20at%204.47.49%20PM.png?1531889983803">
+  <meta property="og:url" content="https://hydra-editor-v1.glitch.me/">
+  <meta name="twitter:title" content="HYDRA">
+ <meta name="twitter:description" content="live coding networked visuals in the browser">
+ <meta name="twitter:image" content="https://cdn.glitch.com/9c3a06ab-0731-42ca-a1a3-3a249825d08f%2FScreen%20Shot%202018-06-24%20at%204.47.49%20PM.png?1531889983803">
+ <meta name="twitter:card" content="summary_large_image">
+ <link href="MediaPlayer1_files/css.css" rel="stylesheet">
+  <link rel="stylesheet" href="MediaPlayer1_files/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="MediaPlayer1_files/codemirror.css">
+  <link rel="stylesheet" href="MediaPlayer1_files/tomorrow-night-eighties.css">
+  <link rel="stylesheet" href="MediaPlayer1_files/show-hint.css">
+  <link rel="stylesheet" href="MediaPlayer1_files/style.css">
+  <link rel="stylesheet" href="MediaPlayer1_files/modal.css">
+  <link rel="shortcut icon" type="image/png" href="https://cdn.glitch.com/597fe374-3d18-46a5-b99c-ceff1f8ffd79%2Ffavicon.png?1530891352785">
+
+</head>
+<body>
+  <div id="hydra-ui">
+    <form action="" id="code-holder" name="code-holder">
+      <textarea id="code" name="code" style="display: none;"></textarea><div class="CodeMirror cm-s-tomorrow-night-eighties CodeMirror-wrap CodeMirror-focused"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 138px; left: 114px;"><textarea style="position: absolute; bottom: -1em; padding: 0px; width: 1px; height: 1em; outline: currentcolor none medium;" autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" wrap="off"></textarea></div><div class="CodeMirror-vscrollbar" cm-not-content="true"><div style="min-width: 1px; height: 0px;"></div></div><div class="CodeMirror-hscrollbar" cm-not-content="true"><div style="height: 100%; min-height: 1px; width: 0px;"></div></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1" draggable="true" style="opacity: 1;"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: -16px; border-right-width: 14px; min-height: 366px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div style="position: relative; outline: currentcolor none medium;" role="presentation"><div class="CodeMirror-measure"><pre>x</pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-cursors" style=""><div class="CodeMirror-cursor" style="left: 114px; top: 134px; height: 22px;">&nbsp;</div></div><div class="CodeMirror-code" role="presentation" style=""><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-comment">//Windows media player 1 </span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-comment">//By Deaglan Lynch</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable">noise</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable">osc</span>(<span class="cm-number">6</span>,<span class="cm-number">0.6</span>,<span class="cm-number">21</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation">  .<span class="cm-property">modulateRotate</span>(</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation">  <span class="cm-variable">voronoi</span>(<span class="cm-number">1</span>,<span class="cm-number">1.25</span>,<span class="cm-number">0</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation">    .<span class="cm-property">pixelate</span>(<span class="cm-number">250</span>,<span class="cm-number">100</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation">)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation">.<span class="cm-property">modulate</span>(</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable">noise</span>(<span class="cm-number">1</span>,<span class="cm-number">0.25</span>),<span class="cm-number">.05</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation">).<span class="cm-property">kaleid</span>(<span class="cm-number">6</span>).<span class="cm-property">modulatePixelate</span>(<span class="cm-variable">noise</span>(<span class="cm-number">0.2</span>,<span class="cm-number">0.5</span>),<span class="cm-number">100</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation">.<span class="cm-property">out</span>(<span class="cm-variable">o0</span>)</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span cm-text="">​</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation"><span class="cm-variable">render</span>(<span class="cm-variable">o0</span>)</span></pre></div></div></div></div></div><div style="position: absolute; height: 14px; width: 1px; border-bottom: 0px solid transparent; top: 366px;"></div><div class="CodeMirror-gutters" style="display: none; height: 380px;"></div></div></div>
+    </form>
+
+    <canvas id="hydra-canvas" width="1366" height="634" style="width: 100%; height: 100%;">
+    </canvas>
+    <canvas id="audio-canvas">
+    </canvas>
+  </div>
+  <div id="info-container" class="hidden">
+    <div id="modal">
+      <div id="modal-header">
+        <div><!--<i class="fas fa-bars icon"></i>--></div>
+        <div>
+          <i id="share-icon" title="upload to gallery" class="fas fa-upload icon" aria-hidden="true"></i>
+          <i id="clear-icon" title="clear all" class="fa fa-trash icon" aria-hidden="true"></i>
+          <i id="shuffle-icon" title="show random sketch" class="fas fa-random icon" aria-hidden="true"></i>
+          <i id="close-icon" class="fas fa-question-circle icon" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div id="modal-body">
+        <div id="modal-content">
+          <h1> hydra</h1>
+          <h3> live coding networked visuals </h3>
+            <br> ///////////////////////////////////////////////////////////<br>
+            <h4> Hydra is a platform for live coding visuals, in which 
+each connected browser window can be used as a node of a modular and 
+distributed video synthesizer.</h4>
+          <h4> To get started: <ol>
+              <li>Close this window </li>
+                <li>Change some numbers </li>
+                <li>Type Ctrl + Shift + Enter </li>
+              </ol>
+          </h4>
+
+          <p> ///////////////////////////////////////////////////////////<br><br><br>Built
+ using WebRTC (peer-to-peer web streaming) and WegGL, hydra allows each 
+connected browser/device/person to output a video signal or stream, and 
+receive and modify streams from other browsers/devices/people. The API 
+is inspired by analog modular synthesis, in which multiple visual 
+sources (oscillators, cameras, application windows, other connected 
+windows) can be transformed, modulated, and composited via combining 
+sequences of functions. </p>
+          <p>Features: </p><ul>
+          <li>Written in javascript and compatible with other javascript libraries</li>
+          <li>Available as a platform as well as a set of standalone modules </li>
+          <li>Cross-platform and requires no installation (runs in the browser)</li>
+          <li>Also available as a package for live coding from within atom text editor</li>
+          <li>Experimental and forever evolving !! </li>
+          </ul>
+          <p> For more information and instructions, see <a href="https://github.com/ojack/hydra" target="_blank">the documentation on github</a> or <a href="https://talk.lurk.org/channel/hydra" target="_blank">join the forum.</a></p><br>
+          <p class="align-right"> Created by <a class="olivia" href="https://twitter.com/_ojack_" target="_blank">olivia.</a> </p>
+          <br><br>Special thanks to the community of contributors: 
+Alvaro O'Byrne, Alexandra Cardenas, Daniel Pinheiro, Débora Falleiros 
+Gonzales, Guy John, Lisa Parra, Nelson Vera, Rafael Puyana, Rodrigo 
+Velasco, Sebastian Avila, Will Humphreys, Yancy Way, Zach Krall.<p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<canvas width="100" height="80" style="width: 100px; height: 80px; position: absolute; right: 0px; bottom: 0px;"></canvas><div class="console cm-s-tomorrow-night-eighties"> &gt;&gt; <span class=""> //Windows media player 1 
+//By Deaglan Lynch
+
+noise
+osc(6,0.6,21)
+  .modulateRotate(
+  voronoi(1,1.25,0)
+    .pixelate(250,100)
+)
+.modulate(
+noise(1,0.25),.05
+).kaleid(6).modulatePixelate(noise(0.2,0.5),100)
+.out(o0)
+
+
+render(o0) </span> </div></body></html>
